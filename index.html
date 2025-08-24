@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordy Delalande - Services à la Personne</title>
+  <style>
+    /* Style global */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    /* En-tête avec logo */
+    header {
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-width: 200px;
+    }
+
+    /* Menu coloré */
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin: 0 5px;
+      color: white;
+      display: inline-block;
+    }
+    .menage { background-color: #2a8fdd; }
+    .repassage { background-color: #ff9800; }
+    .jardinage { background-color: #4caf50; }
+    .petsitting { background-color: #e53935; }
+
+    /* Sections */
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h2 {
+      color: #2a8fdd;
+    }
+
+    /* Pied de page */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="Image2.png" alt="Logo Jordy Delalande">
+  <nav>
+    <a href="#accueil" class="menage">Ménage</a>
+    <a href="#repassage" class="repassage">Repassage</a>
+    <a href="#jardinage" class="jardinage">Jardinage</a>
+    <a href="#petsitting" class="petsitting">Pet Sitting</a>
+  </nav>
+</header>
+
+<section id="accueil">
+  <h2>Bienvenue chez Jordy Delalande</h2>
+  <p>Votre partenaire de confiance pour tous vos services à la personne.</p>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>Présentation de l’entreprise et de vos valeurs.</p>
+</section>
+
+<section id="services">
+  <h2>Nos Services</h2>
+  <p>Liste détaillée des prestations.</p>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <form action="contact.php" method="post">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2025 Jordy Delalande - SIRET : 000 000 000 00000</p>
+  <p>Siège social : [Votre adresse]</p>
+  <p>Email : jordy.aidemenagere@gmail.com - Téléphone : 06  95  71  79  33</p>
+  <p>Hébergeur : OVH SAS, 2 rue Kellermann, 59100 Roubaix, France</p>
+  <p><a href="politique.html">Politique de confidentialité</a></p>
+</footer>
+
