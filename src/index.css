@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajoute tes styles custom ici si besoin */
+
+/* Style global supplémentaire (optionnel) */
+body {
+  @apply bg-gray-50 text-gray-800 font-sans;
+}
+
+h1, h2, h3 {
+  @apply font-bold;
+}
+
+input, select, button {
+  @apply rounded border-gray-300 focus:border-blue-500 focus:ring focus:ring-blue-200;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+ul {
+  @apply list-disc pl-5;
+}
